@@ -19,5 +19,12 @@ public class OperasiMatematika {
 
         c*=10;
         System.out.println(c);
+
+        int d = 100;
+        d++;
+        System.out.println(d);
+        d--;
+        System.out.println(d);
+
     }
 }
