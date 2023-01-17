@@ -6,9 +6,12 @@ public class TestingArray {
         Object[] ObjectArray = {
                 "nur",
                 "arifin",
-                true
+                true,
+                1
         };
-
+        String typeObjectArray;
+        System.out.println(typeObjectArray = ObjectArray[1].getClass().getSimpleName());
+        System.out.println(typeObjectArray == "String");
         System.out.println(Arrays.toString(ObjectArray));
     }
 }
